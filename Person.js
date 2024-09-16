@@ -10,7 +10,7 @@ class PersonClass {
     }
 }
 
-const person1 = new PersonClass("Ansh", 20, "Male");
+const person1 = new PersonClass("Ronak", 21, "Male");
 person1.printDetails(); 
 
 function PersonConstructor(name, age, gender) {
@@ -23,13 +23,13 @@ function PersonConstructor(name, age, gender) {
     }
 }
 
-const person2 = new PersonConstructor("Sakshi", 25, "Female");
+const person2 = new PersonConstructor("Sannidhi", 25, "Female");
 person2.printDetails();  
 
 
 const personLiteral = {
-    name: "Rahul",
-    age: 40,
+    name: "Rohit",
+    age: 37,
     gender: "Male",
 
     printDetails: function() {
@@ -41,8 +41,8 @@ personLiteral.printDetails();
 
 const Personobjcons = new Object();
     Personobjcons.name="Anish"
-    Personobjcons.age=60;
-    Personobjcons.weight=70;
+    Personobjcons.age=6;
+    Personobjcons.weight=7;
     Personobjcons["height"]=5.9
     Personobjcons.getFunction = function(){
         return "Name: "+this.name+" Age: "+this.age+" Weight: "+this.weight+" Height: "+this.height;
@@ -57,4 +57,4 @@ const nonMemberArrowFunction = (name, age, gender) => {
     console.log(`Name: ${name}, Age: ${age}, Gender: ${gender}`);
 }
 
-nonMemberArrowFunction("Karan", 27, "Female");  
+nonMemberArrowFunction("Omkar", 27, "Male");  

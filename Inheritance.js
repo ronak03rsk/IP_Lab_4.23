@@ -28,10 +28,10 @@ class Student extends Person {
 }
 
 try {
-    const student1 = new Student("Ansh", 20, "Male", 101, "Computer Science");
+    const student1 = new Student("Ronak", 23, "Male", 21, "IT");
     student1.printDetails();  
 
-    const student2 = new Student("Sakshi", 22, "Female", 30, "Mechanical Engineering");
+    const student2 = new Student("Snehal", 22, "Female", 30, "Mechanical Engineering");
     student2.printDetails(); 
 } catch (error) {
     console.error("Error:", error.message); 
